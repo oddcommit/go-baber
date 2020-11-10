@@ -2,7 +2,7 @@
 
 <div align='center'>
 
-![](./layout/img/logo/logo.png)
+![](./layout/img/banner/banner.png)
 
 ### **A barber shop scheduling system.**
 
