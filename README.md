@@ -47,6 +47,7 @@ A complete system for barbershop. Developed for the barber and the client, makin
 - [crypto](https://www.npmjs.com/package/crypto-js) - An core JavaScript library of crypto standards.
 - [path](https://nodejs.org/api/path.html) - An core JavaScript library for relative paths.
 - [express-async-errors](https://www.npmjs.com/package/express-async-errors) - A dead simple ES6 async/await support hack for ExpressJS.
+- [cors](https://github.com/expressjs/cors) - An HTTP-header based mechanism that allows a server to indicate any other origins (domain, protocol, or port) than its own from which a browser should permit loading of resources
 
 
 #
