@@ -1,8 +1,8 @@
 node_modules/
 *.txt
 *.zip
-tmp/*
-!tmp/.gitkeep
+/packages/server/tmp/*
+!/packages/server/tmp/.gitkeep
 .pnp/
 .pnp.js
 coverage/
