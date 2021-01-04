@@ -4,12 +4,12 @@ import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import 'express-async-errors';
 
-import { AppError } from './errors/app-error';
+import uploadConfig from '@config/upload';
+import { AppError } from '@shared/errors/app-error';
 
 import { routes } from './routes';
-import uploadConfig from './config/upload';
 
-import './database';
+import '@shared/infra/typeorm';
 
 const SERVER_PORT = 3333;
 
