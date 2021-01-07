@@ -1,8 +1,8 @@
 import { compare } from 'bcryptjs';
 import { sign } from 'jsonwebtoken';
+import { injectable, inject } from 'tsyringe';
 
 import authConfig from '@config/auth';
-import { injectable, inject } from 'tsyringe';
 import { AppError } from '@shared/errors/app-error';
 import { IUsersRepository } from '../repositories/interface-users-repository';
 
