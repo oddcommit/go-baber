@@ -1,3 +1,5 @@
+import { ISendMailDTO } from '../dtos/interface-send-mail-dto';
+
 export interface IMailProvider {
-  sendMail(to: string, body: string): Promise<void>;
+  sendMail(data: ISendMailDTO): Promise<void>;
 }
