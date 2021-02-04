@@ -56,6 +56,9 @@ Dependencies used on the application back-end. See the [package.json](./packages
 - [express-async-errors](https://www.npmjs.com/package/express-async-errors) - A dead simple ES6 async/await support hack for ExpressJS.
 - [cors](https://github.com/expressjs/cors) - An HTTP-header based mechanism that allows a server to indicate any other origins (domain, protocol, or port) than its own from which a browser should permit loading of resources
 - [tsyringe](https://github.com/microsoft/tsyringe) - Lightweight dependency injection container for JavaScript/TypeScript.
+- [nodemailer](https://nodemailer.com/about/) - Email send.
+- [handlebars](https://handlebarsjs.com/) - Template Engine.
+- [ethereal](https://ethereal.email/) - Fake SMTP service.
 
 ### **Client**
 
