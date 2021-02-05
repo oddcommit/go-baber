@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
+import { classToClass } from 'class-transformer';
 
 import { AuthenticateUserService } from '@modules/users/services/authenticate-user-service';
 
@@ -14,9 +15,6 @@ export class SessionsController {
       password,
     });
 
-    // @ts-expect-error ignore this error
-    delete user.password;
-
-    return response.json({ user, token });
+    return response.json({ user: classToClass(user), token });
   }
 }

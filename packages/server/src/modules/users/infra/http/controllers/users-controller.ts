@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
+import { classToClass } from 'class-transformer';
 
 import { CreateUserService } from '@modules/users/services/create-user-service';
 
@@ -15,9 +16,6 @@ export class UsersController {
       password,
     });
 
-    // @ts-expect-error ignore this error
-    delete user.password;
-
-    return response.json(user);
+    return response.json(classToClass(user));
   }
 }
