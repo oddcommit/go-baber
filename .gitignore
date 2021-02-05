@@ -1,3 +1,4 @@
+ormconfig.json
 node_modules/
 *.txt
 *.zip
