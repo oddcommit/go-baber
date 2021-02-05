@@ -30,9 +30,6 @@ export class ProfileController {
       password,
     });
 
-    // @ts-expect-error ignore this error
-    delete user.password;
-
     return response.json(classToClass(user));
   }
 }
